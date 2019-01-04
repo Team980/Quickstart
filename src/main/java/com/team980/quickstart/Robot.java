@@ -1,7 +1,7 @@
 /*
  * MIT License
  *
- * Copyright (c) 2018 FRC Team 980 ThunderBots
+ * Copyright (c) 2019 FRC Team 980 ThunderBots
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -28,6 +28,8 @@ import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
 import com.ctre.phoenix.sensors.PigeonIMU;
 import edu.wpi.first.wpilibj.*;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
+import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
+import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 
 import static com.team980.quickstart.Parameters.*;
 

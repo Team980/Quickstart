@@ -10,12 +10,19 @@ Then generate the project files for your IDE:
 
 Visual Studio Code requires no additional configuration. (Note that the WPIib plugin is not currently supported.)
 
-Finally, move the `Robot` class to a different package and update the corresponding entry in the `build.gradle` configuration file, and you're done!
+Finally, move the `Robot` and `Main` classes to a different package. 
+Once you update the corresponding entry in the `build.gradle` configuration file, you're done!
 
 ## Configuring your robot project
-This project uses GradleRIO, the Gradle-based FRC toolchain. (You can read more about GradleRIO [here](https://github.com/Open-RIO/GradleRIO).)
+This project uses GradleRIO, the Gradle-based FRC toolchain. (You can read more about GradleRIO [here](https://github.com/wpilibsuite/GradleRIO).)
 
 GradleRIO projects are configured via the `build.gradle` file in the project directory.
+
+## Dependencies
+WPILib dependencies are tied to the GradleRIO version.
+Vendor dependencies can be added by including the provided vendor.json files in the ```vendordeps``` folder.
+
+CTRE's Phoenix Framework (```Phoenix.json```) is provided as an example, as is a script to update it.
 
 ## Building and deploying your code
 - ```gradlew clean``` will clean your build directories
