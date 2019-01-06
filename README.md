@@ -10,6 +10,8 @@ Then generate the project files for your IDE:
 
 Visual Studio Code requires no additional configuration. (Note that the WPIib plugin is not currently supported.)
 
+When importing the project into your IDE, make sure to use the Gradle wrapper provided by the project.
+
 Finally, move the `Robot` and `Main` classes to a different package. 
 Once you update the corresponding entry in the `build.gradle` configuration file, you're done!
 
