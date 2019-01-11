@@ -43,7 +43,7 @@ deploy {
         }
     }
     artifacts {
-        frcJavaArtifact('frcJava') {
+        frcJavaArtifact("frcJava") {
             targets << "roborio"
         }
     }
