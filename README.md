@@ -2,7 +2,7 @@
 Making a new project? Start here!
 
 ## How to use this project
-First, download the project and copy it into your working directory.
+First, [download the project](https://github.com/Team980/Quickstart/archive/master.zip) and copy it into your working directory.
 
 Then generate the project files for your IDE:
 - ```gradlew idea``` (IntelliJ IDEA)
