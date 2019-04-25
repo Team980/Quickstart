@@ -28,7 +28,7 @@ plugins {
     id "java"
     id "idea"
     id "eclipse"
-    id "edu.wpi.first.GradleRIO" version "2019.1.1"
+    id "edu.wpi.first.GradleRIO" version "2019.4.1"
 }
 
 def MAIN_CLASS = "com.team980.quickstart.Main"
@@ -62,5 +62,5 @@ jar {
 }
 
 wrapper {
-    gradleVersion = '5.0'
+    gradleVersion = '5.1'
 }

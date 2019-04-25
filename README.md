@@ -8,7 +8,7 @@ Then generate the project files for your IDE:
 - ```gradlew idea``` (IntelliJ IDEA)
 - ```gradlew eclipse``` (Eclipse)
 
-Visual Studio Code requires no additional configuration. (Note that the WPIib plugin is not currently supported.)
+Visual Studio Code requires no additional configuration.
 
 When importing the project into your IDE, make sure to use the Gradle wrapper provided by the project.
 
